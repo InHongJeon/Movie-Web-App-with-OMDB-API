@@ -2,6 +2,7 @@
   "name": "js.moive",
   "version": "1.0.0",
   "description": "",
+  "type":"module",
   "scripts": {
     "dev": "parcel ./index.html",
     "build": "parcel build ./index.html",
@@ -11,11 +12,15 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
+    "@types/node-fetch": "^2.6.4",
     "dotenv": "^16.3.1",
     "parcel": "^2.9.3",
+    "typescript": "^5.1.6",
     "vercel": "^31.1.0"
   },
   "dependencies": {
     "node-fetch": "^2.6.12"
   }
+  
 }
+
